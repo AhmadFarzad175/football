@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>BasketBall</title>
+  </head>
+  <body>
+    <div class="container rowStyle">
+      <div class="row" style="height: 70%">
+        <div class="col-xs-4 col-sm-4 d-flex" style="text-align: center">
+          <div style="width: 155px">
+            <h1>HOME</h1>
+            <div class="numContain">
+              <p class="num" id="num1">0</p>
+            </div>
+            <div class="btns">
+              <button class="btn-item col-xs-4 col-sm-4">+1</button>
+              <button
+                class="btn-item col-xs-4 col-sm-4"
+                style="margin-left: 5px"
+              >
+                +2
+              </button>
+              <button
+                class="btn-item col-xs-4 col-sm-4"
+                style="margin-left: 5px"
+              >
+                +3
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 d-flex" style="text-align: center">
+          <div style="width: 155px">
+            <h1>AWAY</h1>
+            <div class="numContain">
+              <p class="num" id="num2">0</p>
+            </div>
+            <div class="btns">
+              <button class="btn-item col-xs-4 col-sm-4">+1</button>
+              <button
+                class="btn-item col-xs-4 col-sm-4"
+                style="margin-left: 5px"
+              >
+                +2
+              </button>
+              <button
+                class="btn-item col-xs-4 col-sm-4"
+                style="margin-left: 5px"
+              >
+                +3
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="row" style="flex-direction: column">
+          <div>
+            <button class="btn-item Finish">Finish</button>
+            <button class="btn-item reset">New Game</button>
+          </div>
+          <button class="result">congretulation Home win the game</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <!-- <script>
+        
+      function sumUp() {
+        let lst = [3, 3];
+        let target = 6;
+        let lst2 = [];
+
+        for (const i of lst) {
+          for (const l of lst) {
+            if (i !== l) {
+              if (i + l == target) {
+                lst2.push(lst.indexOf(i));
+                lst2.push(lst.indexOf(l));
+                return lst2;
+              }
+            }
+          }
+        }
+      }
+
+      console.log(sumUp());
+    </script> -->
+  </body>
+</html>
